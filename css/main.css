@@ -78,6 +78,7 @@ footer a {
 
 .blurb {
 	background-color: orange;
+	height: 100px;
 	text-align: center;
 	font-size: 1em;
 	padding: 10px 0px;
@@ -87,6 +88,7 @@ footer a {
 	background-color: gray;
 	width: 100%;
 	padding: 15px 10px;
+	height: 400px;
 }
 
 .blogLinks li {
