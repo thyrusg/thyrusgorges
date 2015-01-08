@@ -31,7 +31,9 @@ a {
 
 /** Navigation **/
 nav {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
 }
 
 nav li {
@@ -54,6 +56,9 @@ footer {
 
 .blurb {
 	background-color: orange;
+	text-align: center;
+	font-size: 1em;
+	padding: 10px 0px;
 }
 
 .blogLinks {
