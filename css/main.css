@@ -21,24 +21,40 @@ header {
 /** HX Tags **/
 h1 {
 	margin-bottom: 10px;
+	font-size: 3em;
 }
 
 /** Links **/
 a {
+	text-decoration: none;
+	color: black;
+}
 
+a:visited {
+	color: tomato;
+}
+
+a:hover {
+	color: blue;
+}
+
+/** Lists **/
+li {
+	list-style: none;
 }
 
 
 /** Navigation **/
 nav {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	border-bottom: 2px solid black;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 nav li {
 	display: inline-block;
-	background-color: yellow;
+	/*background-color: yellow;*/
+	padding-right: 15px;
 }
 
 
@@ -68,6 +84,12 @@ footer a {
 }
 
 .blogLinks {
-	background-color: blue;
+	background-color: gray;
 	width: 100%;
+	padding: 15px 10px;
+}
+
+.blogLinks li {
+	line-height: 2.2em;
+	font-size: 1.2em;
 }
