@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-html, body {
+html, body, h1 {
 	margin: 0;
 	padding: 0;
 }
@@ -14,12 +14,26 @@ html, body {
 
 
 /** Headings **/
+header {
+	text-align: center;
+}
 
+/** HX Tags **/
+h1 {
+	margin-bottom: 10px;
+}
 
 /** Links **/
+a {
+
+}
 
 
 /** Navigation **/
+nav {
+	margin-bottom: 50px;
+}
+
 nav li {
 	display: inline-block;
 	background-color: yellow;
@@ -29,6 +43,11 @@ nav li {
 /** Footer **/
 footer {
 	background-color: red;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
 /** Classes **/
@@ -39,4 +58,5 @@ footer {
 
 .blogLinks {
 	background-color: blue;
+	width: 100%;
 }
